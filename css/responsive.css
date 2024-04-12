@@ -1,0 +1,113 @@
+@media only screen and (max-width:991px) {
+    .main-nav .navbar-nav>li>a {
+        margin-left: 18px
+    }
+    .main-nav .navbar-brand>a img {
+        width: 160px
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .mobile-center {
+        float: none;
+        text-align: center
+    }
+    .main-nav .navbar-brand {
+        padding: 0 15px
+    }
+    .main-nav .navbar-toggle {
+        border-radius: 0
+    }
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover {
+        background-color: transparent
+    }
+    .main-nav.top-nav-collapse .icon-bar {
+        background: #333
+    }
+    .navbar-collapse {
+        margin-top: 20px
+    }
+    .container>.navbar-collapse {
+        margin-left: 0;
+        margin-right: 0
+    }
+    .main-nav .navbar-right {
+        background: #f1f1f1;
+        margin: 0 -15px;
+        padding: 10px 0
+    }
+    .main-nav .navbar-nav>li {
+        width: 100%;
+        text-align: center
+    }
+    .main-nav .navbar-nav>li>a {
+        margin-top: 0;
+        margin-left: 0;
+        color: #666
+    }
+    .slider-main-title {
+        font-size: 28px !important;
+        margin-bottom: 10px
+    }
+    .slider-main-title span {
+        font-size: 36px !important
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .slider-main-title {
+        font-size: 18px !important;
+        padding-top: 22% !important
+    }
+    .slider-main-title span {
+        font-size: 24px !important
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .full-wd600 {
+        width: 100%
+    }
+    .main-nav .navbar-brand {
+        width: 180px;
+        height: auto
+    }
+    .angle-shape::before {
+        transform: skewY(3deg);
+        -webkit-transform: skewY(3deg);
+        -moz-transform: skewY(3deg);
+        -ms-transform: skewY(3deg);
+        -o-transform: skewY(3deg)
+    }
+}
+
+@media only screen and (max-width:560px) {
+    .slider-para {
+        display: none
+    }
+    .slider-main-title {
+        padding-top: 26% !important
+    }
+}
+
+@media only screen and (max-width:420px) {
+    .slider-main-title,
+    .slider-main-title span {
+        font-size: 16px !important
+    }
+    .main-nav .navbar-brand {
+        width: 150px;
+        height: auto
+    }
+    .navbar-toggle {
+        margin-top: 0;
+        margin-bottom: 0
+    }
+    .main-slider-section {
+        margin-top: 62px
+    }
+    .slider-main-title {
+        padding-top: 30% !important
+    }
+}
